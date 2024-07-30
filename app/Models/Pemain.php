@@ -9,7 +9,7 @@ class Pemain extends Model
 {
     use HasFactory;
 
-    public $fillable = ['Nama', 'Foto', 'TTL', 'Harga', 'Posisi', 'id_klub'];
+    public $fillable = ['Nama', 'Foto', 'TTL', 'Harga', 'Posisi','Negara', 'id_klub'];
 
     public function klub()
     {
